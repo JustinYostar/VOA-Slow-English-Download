@@ -1,6 +1,6 @@
 # VOA Daily Audio Downloader GUI
 
-> **Year‑Month Archive Edition** – 支持自动域名 / HQ 检测、日期范围批量下载、按年份‑月份归档、多线程下载与一键停止。
+> 灵活归档 · 多线程加速 · 跨平台轻松批量下载 VOA “Daily English” 节目，自动识别 HQ 链接，并按“年 / 月”整理文件夹。
 
 ![screenshot](https://github.com/JustinYostar/VOA-Slow-English-Download/blob/main/screenshot.png) 
 
@@ -14,7 +14,7 @@
 | **自动 URL 适配** | 根据年份自动尝试不同域名、时码段 (`003003` / `003000`) 与 `_hq` / 普通版后缀，优先下载高质量 `_hq` 文件。      |
 | **并发线程**      | 可在 GUI 中选择 1‑16 条并发下载线程（默认 4），显著提升批量下载速度。                                     |
 | **目录归档**      | 文件按 `ROOT/年/月/日期.mp3` 结构自动保存，便于整理与后续播放器索引。                                    |
-| **保存目录**   | 默认 `D:\VOA`。                                                   |
+| **保存目录**   | 默认 `D:\VOA`，点击 “浏览…” 挑选任意硬盘或网络路径。。                                                   |
 | **下载进度 & 停止** | 进度条实时显示完成度；点击“停止”立即取消剩余任务并删除未完成文件。                                            |
 | **跨平台**       | 代码基于标准 `Tkinter` + `requests`，在 Windows 10/11、macOS、Linux (X11/Wayland) 测试通过。 |
 
